@@ -1,0 +1,48 @@
+body{
+    font-family: "Roboto", sans-serif;
+    height: 1000px;
+}
+.navbar{
+    background-color: var(--bs-navbar-brand-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link2{
+    color: #198754;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: #198754;
+
+}
+.navbar .search{
+    border-left: solid #198754;
+}
+.navbar .search svg{
+    color: #198754;
+
+}
+.dropdown-item{
+    color: #198754;
+
+}
+.navbar .navbar-toggler{
+    border: #ffffff solid;
+    color: #ffffff;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"]{
+    border-color: #198754;
+}
+.navbar .search .btn{
+    background-color: #FF004D;
+    color: #FAEF5D;
+    width: 75px;
+}
+
